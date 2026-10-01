@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+#res-header {
+    background-color: #F3EBDD;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+
+}
+
+.res-img {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.prod-page a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.coffee-quote {
+    margin-left: 35%;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+
+#listofitem {
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+    width: 100%;
+    justify-items: center;
+    padding: 0 20px;
+}
+
+button {
+    height: 30px;
+    width: 50px;
+    margin: 15px;
+    color: beige;
+    background-color: blue;
+
+}
+
