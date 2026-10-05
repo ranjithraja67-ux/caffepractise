@@ -31,14 +31,16 @@
     margin-left: 35%;
     padding-bottom: 50px;
     padding-top: 25px;
-    
+
 }
+
 img {
-      border-radius: 10px;
+    border-radius: 10px;
     transition: (transform 1s ease-in);
 }
-img:hover{
-    transform: scale( .9) ;
+
+img:hover {
+    transform: scale(.9);
 }
 
 #listofitem {
@@ -48,17 +50,23 @@ img:hover{
     justify-items: center;
     padding: 0 20px;
 }
-.item-info{
+
+.item-info {
     display: flex;
     align-items: center;
-    gap: 120px;
+    gap: 50px;
 }
 
 button {
     height: 30px;
     width: 50px;
-border: 0cm;
-border-radius: 5px;
+    border: 0cm;
+    border-radius: 5px;
     color: beige;
     background-color: blue;
+}
+button:hover {
+    background-color: rgb(255, 0, 4);
+    color: black;
+    transform: translateY(-5px);
 }
