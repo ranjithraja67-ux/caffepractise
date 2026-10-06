@@ -43,12 +43,15 @@ label {
     transition: background 0.5s ease-in-out;
     border-radius: 10px;
     margin-left: 100px;
+    border: 0px;
+    cursor: pointer;
 }
 
 .place-order:hover {
     background-color: aquamarine;
     color: black;
     transform: translateY(-5px);
+    
 }
 
 a {
