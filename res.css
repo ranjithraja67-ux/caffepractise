@@ -36,7 +36,7 @@
 
 img {
     border-radius: 10px;
-    transition: (transform 1s ease-in);
+    transition: transform 0.3s ease-in;
 }
 
 img:hover {
@@ -64,6 +64,7 @@ button {
     border-radius: 5px;
     color: beige;
     background-color: blue;
+    transition: all 0.5s ease-in-out;
 }
 button:hover {
     background-color: rgb(255, 0, 4);
